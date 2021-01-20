@@ -1,0 +1,15 @@
+Bundle-Name: Ha-VIS Util Core API
+Bundle-SymbolicName: havis.util.core-api
+Bundle-Version: 2.6.2
+Implementation-Version: 2.6
+Bundle-ManifestVersion: 2
+Bundle-Vendor: HARTING IT_SD
+Import-Package: 
+ com.fasterxml.jackson.annotation
+Export-Package: 
+ havis.util.core,
+ havis.util.core.app,
+ havis.util.core.license,
+ havis.util.core.log,
+ havis.util.core.rmi
+
